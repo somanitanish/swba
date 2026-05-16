@@ -176,7 +176,7 @@ export default function Home() {
 
           <div
             data-testid="players-grid"
-            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6"
+            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6"
           >
             {players.map((p, i) => (
               <article
@@ -208,13 +208,6 @@ export default function Home() {
               </article>
             ))}
           </div>
-
-          <p
-            className="mt-10 text-center text-xs md:text-sm uppercase tracking-[0.25em] text-white/40"
-            data-testid="players-placeholder-note"
-          >
-            Full roster updating soon
-          </p>
         </div>
       </section>
 

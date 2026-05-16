@@ -52,13 +52,6 @@ export const Navbar = () => {
           <NavLink to="/about-coach" className={linkClass} data-testid="nav-about-link">
             About Coach
           </NavLink>
-          <a
-            href="tel:+918605981981"
-            data-testid="nav-cta-call"
-            className="bg-yellow-400 text-black font-bold uppercase tracking-widest text-xs px-6 py-3 hover:bg-white transition-colors"
-          >
-            Join Academy
-          </a>
         </nav>
 
         <button
@@ -94,13 +87,6 @@ export const Navbar = () => {
             >
               About Coach
             </NavLink>
-            <a
-              href="tel:+918605981981"
-              data-testid="mobile-nav-cta"
-              className="bg-yellow-400 text-black font-bold uppercase tracking-widest text-xs px-6 py-3 text-center"
-            >
-              Join Academy
-            </a>
           </div>
         </div>
       )}

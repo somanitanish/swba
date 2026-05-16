@@ -90,8 +90,11 @@ export const tournaments = [
 ];
 
 export const players = [
-  { id: 1, name: "Player One", category: "U-17 State", image: "https://images.unsplash.com/photo-1722087642932-9b070e9a066e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwyfHxiYWRtaW50b24lMjBwbGF5ZXIlMjBhY3Rpb258ZW58MHx8fHwxNzc4OTMxNTU1fDA&ixlib=rb-4.1.0&q=85" },
-  { id: 2, name: "Player Two", category: "U-19 National", image: "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwxfHxiYWRtaW50b24lMjBwbGF5ZXIlMjBhY3Rpb258ZW58MHx8fHwxNzc4OTMxNTU1fDA&ixlib=rb-4.1.0&q=85" },
-  { id: 3, name: "Player Three", category: "Senior State", image: "https://images.unsplash.com/photo-1595220427358-8cf2ce3d7f89?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHw0fHxiYWRtaW50b24lMjBwbGF5ZXIlMjBhY3Rpb258ZW58MHx8fHwxNzc4OTMxNTU1fDA&ixlib=rb-4.1.0&q=85" },
-  { id: 4, name: "Player Four", category: "U-13 Sub Junior", image: "https://images.unsplash.com/photo-1599391398131-cd12dfc6c24e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwzfHxiYWRtaW50b24lMjBwbGF5ZXIlMjBhY3Rpb258ZW58MHx8fHwxNzc4OTMxNTU1fDA&ixlib=rb-4.1.0&q=85" },
+  { id: 1, name: "Yohaan Kalyani", category: "SWBA Athlete", image: "https://customer-assets.emergentagent.com/job_swba-sports/artifacts/fq1icw0e_1.jpeg" },
+  { id: 2, name: "Yash Agrawal", category: "SWBA Athlete", image: "https://customer-assets.emergentagent.com/job_swba-sports/artifacts/qgioqao9_2.jpeg" },
+  { id: 3, name: "Sia Waydande", category: "SWBA Athlete", image: "https://customer-assets.emergentagent.com/job_swba-sports/artifacts/y0mtmlir_3.jpeg" },
+  { id: 4, name: "Hita Agrawal", category: "SWBA Athlete", image: "https://customer-assets.emergentagent.com/job_swba-sports/artifacts/2i0a2xv8_4.jpeg" },
+  { id: 5, name: "Dwisha Mandale", category: "SWBA Athlete", image: "https://customer-assets.emergentagent.com/job_swba-sports/artifacts/rw2veoom_5.jpeg" },
+  { id: 6, name: "Natasha Kakade", category: "SWBA Athlete", image: "https://customer-assets.emergentagent.com/job_swba-sports/artifacts/l6f417vm_6.jpeg" },
+  { id: 7, name: "Nandini Bhargava", category: "SWBA Athlete", image: "https://customer-assets.emergentagent.com/job_swba-sports/artifacts/kh6sc2w3_7.jpeg" },
 ];

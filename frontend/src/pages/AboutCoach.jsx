@@ -69,9 +69,9 @@ export default function AboutCoach() {
                   data-testid="coach-photo"
                   src={COACH_PHOTO}
                   alt="Coach Siddharth Wagh"
-                  className="w-full aspect-[3/4] object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                  className="block w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.03]"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
                 <div className="absolute bottom-0 inset-x-0 p-5 md:p-7">
                   <div className="text-[10px] md:text-xs text-yellow-400 uppercase tracking-[0.3em] font-bold mb-1">
                     Head Coach · Founder

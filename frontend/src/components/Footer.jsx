@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Youtube, Phone, MapPin } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
@@ -28,38 +28,6 @@ export const Footer = () => {
             discipline, drills and championship mindset. Train where
             performance meets passion.
           </p>
-          <div className="mt-6 flex items-center gap-3">
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noreferrer"
-              data-testid="footer-instagram"
-              className="w-10 h-10 border border-white/20 flex items-center justify-center hover:bg-yellow-400 hover:text-black hover:border-yellow-400 transition-all"
-              aria-label="Instagram"
-            >
-              <Instagram size={18} />
-            </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noreferrer"
-              data-testid="footer-facebook"
-              className="w-10 h-10 border border-white/20 flex items-center justify-center hover:bg-yellow-400 hover:text-black hover:border-yellow-400 transition-all"
-              aria-label="Facebook"
-            >
-              <Facebook size={18} />
-            </a>
-            <a
-              href="https://youtube.com"
-              target="_blank"
-              rel="noreferrer"
-              data-testid="footer-youtube"
-              className="w-10 h-10 border border-white/20 flex items-center justify-center hover:bg-yellow-400 hover:text-black hover:border-yellow-400 transition-all"
-              aria-label="YouTube"
-            >
-              <Youtube size={18} />
-            </a>
-          </div>
         </div>
 
         {/* Links */}
