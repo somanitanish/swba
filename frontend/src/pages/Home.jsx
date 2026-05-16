@@ -62,6 +62,7 @@ export default function Home() {
 
           <h1
             data-testid="hero-heading"
+            aria-label="Dominate The Court"
             className="font-heading font-black uppercase leading-[0.9] tracking-tight text-white text-5xl sm:text-6xl md:text-7xl lg:text-[7.5rem] fade-up"
             style={{ animationDelay: "0.2s" }}
           >
